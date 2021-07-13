@@ -1,0 +1,67 @@
+/* --------------
+Fonts---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------Player CSS------ */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #2D25A0;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+.player-title{
+    margin-left: 110px;
+}
+.title{
+    margin-left: 20px;
+}
+.title h1{
+    color: #FFFF;
+    font-size: 64px;
+    font-weight: 700px;
+    width: 485px;
+    height: 2230;
+    margin-bottom: 18px;
+}
+.button{
+    color: #FFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.title i{
+    margin-left: 6px;
+}
+/* ------------
+Players-Section----- */
+.players-section{
+
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1050px;
+    height: 474px;
+    position: absolute;
+    left: 180px;
+}
+.players{
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 13px;
+}
+.players h1{}
+.players p{
+    width: 305px;
+}
